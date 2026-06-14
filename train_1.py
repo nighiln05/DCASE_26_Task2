@@ -14,7 +14,7 @@ ROOT_DIR = r"C:\Users\Nighil Natarajan\ckmam_proj\dcase_2026"
 CHECKPOINT_DIR = "checkpoints_dcase2026_near_june12_att3"
 
 BATCH_SIZE      = 96
-EPOCHS          = 200
+EPOCHS          = 150
 LEARNING_RATE   = 2e-4
 TEMPERATURE     = 0.05
 
