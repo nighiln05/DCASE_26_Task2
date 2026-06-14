@@ -137,7 +137,7 @@ The system is implemented in PyTorch and explicitly optimized for constrained ha
 
 To maintain computational efficiency, input Log-Mel spectrograms are partitioned into 32×32 patches with a stride of 16, yielding a maximum of 32 patches per sample.
 
-Training is performed jointly across all machine types for **40 epochs** using the Adam optimizer with:
+Training is performed jointly across all machine types for **150 epochs** using the Adam optimizer with:
 
 - Initial learning rate: **2 × 10⁻⁴**
 - Batch size: **96**
